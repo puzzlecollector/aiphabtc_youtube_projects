@@ -55,7 +55,7 @@ def rebalance_portfolio():
                 if diff_units > 0: 
                     bithumb.buy_market_order(asset, diff_units) 
                 elif diff_units < 0: 
-                    bithumb.buy_market_order(asset, -diff_units) 
+                    bithumb.sell_market_order(asset, -diff_units) 
     print(f"Rebalanced portfolio. Current cash holding: {get_cash_balance()} KRW")
 
 first_run = True
