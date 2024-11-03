@@ -54,7 +54,7 @@ def rebalance_portfolio():
     print(f"Rebalanced portfolio. Cash allocations: {target_allocation} KRW, Total cash aft
 er rebalancing: {get_cash_balance()} KRW") 
 
-first_run = False
+first_run = True
 
 while True:
     if first_run:
