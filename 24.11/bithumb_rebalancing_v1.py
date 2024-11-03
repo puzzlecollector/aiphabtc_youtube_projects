@@ -1,3 +1,8 @@
+## useful under two conditions 
+## 1. Bull market 
+## 2. Cyclical pumping of cryptos 
+## I am already holding large amounts of BTC, ETH, SOL, so I decided to create a portfolio of cryptos that I have not invested yet. Each of these cover different sectors that I suspect would be bullish this cycle e.g. RWA, AI, Meme, L2 
+
 import pandas as pd 
 from pybithumb import Bithumb 
 import os
